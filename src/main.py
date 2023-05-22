@@ -10,5 +10,6 @@ class DisplayDate:
     def display_current_timestamp(self):
         now = datetime.now()
         print(f'Current Date and Time is {now.strftime("%Y-%m-%d %H:%M:%S")}')
+        return now
 
 DisplayDate().display_current_timestamp()
